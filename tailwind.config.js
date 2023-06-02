@@ -16,6 +16,19 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 60s linear infinite',
         'ping-slow':'ping 20s linear infinite'
+      },
+      boxShadow:{
+        
+           
+          'circle-shadow': '0 0 40px rgba(0, 0, 0, 0.5)',
+          'circle-shadowSmall': '0 0 10px rgba(0, 0, 0, 0.5)',
+         
+      },
+      colors:{
+        "custom1":"#000000",
+        'custom2':"#282A3A",
+        "custom3":"#735F32",
+        "custom4":"#C69749"
       }
     },
   },

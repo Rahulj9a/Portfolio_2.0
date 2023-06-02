@@ -10,15 +10,15 @@ const LeftSideBar = ({ links = [{ title: "Home", href: "./" }] }) => {
   return (
     <div
       className={`h-full min-h-screen z-20 ${
-        leftSideBar.isOpen ? "md:w-[350px] w-[250px]" : "md:w-20 w-0"
-      } bg-black duration-500 relative py-2`}
+        leftSideBar.isOpen ? "md:w-[350px] w-[250px]" : "md:w-20 md:block   w-0 "
+      } bg-custom2 duration-500 py-2 fixed border-r-2 border-r-custom4`}
     >
       <button
         onClick={() => leftSideBar.onToggle()}
-        className={`cursor-pointer flex absolute m-auto -right-4 md:-right-5 top-0 bottom-0 md:w-4 w-3 rounded-sm h-20 ${
+        className={`cursor-pointer bg-custom3 flex absolute m-auto  -right-5 top-0 bottom-0  w-4   rounded-sm h-20 ${
           leftSideBar.isOpen
-            ? "md:-translate-x-6 -translate-x-5 bg-white"
-            : "bg-black animate-pulse"
+            ? " -translate-x-6 "
+            : "  animate-pulse"
         } duration-1000 z-50 `}
       ></button>
 
@@ -27,7 +27,7 @@ const LeftSideBar = ({ links = [{ title: "Home", href: "./" }] }) => {
           title="Rahul Solanki"
           profile
           detail="web developer"
-          logo=<Image width={75} height={75} src="/images/profilepic.jpg" />
+          logo=<Image width={75} height={75} className="h-16 w-16 rounded-full" src="/images/profilepic.jpg" />
         />
       </div>
 
