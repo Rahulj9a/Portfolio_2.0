@@ -2,11 +2,11 @@ import React from "react";
 
 const SkillSection = ({ skillName, skillIcon, children }) => {
   return (
-    <div id={`${skillName}Corner`} className="h-auto flex w-full py-4">
+    <div id={`${skillName}Corner`} className="h-auto flex w-full min-h-[80px]">
        
         <div
           id="skillName"
-          className="flex items-center justify-end pr-3 w-2/12"
+          className="flex items-center justify-end pr-3 text-custom4 w-2/12"
         >
           <p>{skillName}</p>
         </div>
@@ -20,7 +20,7 @@ const SkillSection = ({ skillName, skillIcon, children }) => {
           </div>
         </div>
 
-        <div id="skillDetail" className="flex items-center pl-5 flex-1">
+        <div id="skillDetail" className="py-4 border-b-2 border-b-custom3 items-center text-custom3 pl-5 flex-1">
           {children}
         </div>
        

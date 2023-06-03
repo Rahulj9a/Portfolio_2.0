@@ -1,17 +1,24 @@
+import ProjectCard from "@/components/ProjectCard";
 import React from "react";
-import LeftSideBar from '@/components/LeftSideBar'
-import {BiArrowBack} from'react-icons/bi'
 
 const Projects = () => {
-  const links = [
-    { title: "Back", href: "back", logo: <BiArrowBack size="40px" /> },
-  ];
   return (
-    <div className="flex relative">
-      <LeftSideBar links={links} className="absolute" />
-      <div className="flex-1 m-auto md:left-20   absolute">
-        <div className="border-2 border-blue-500 ">Projects</div>
-      </div>
+    <div className="flex flex-col justify-evenly w-3/4 m-auto md:left-20 left-0 min-h-full h-fit   bg-custom2 pt-10  absolute">
+      <section id="CodingProjects" className="w-full h-auto">
+        <h2></h2>
+        
+        
+      </section>
+      <section id="BlogPosts">
+        <h2></h2>
+      <div className="flex flex-wrap gap-y-8 w-full h-auto justify-evenly">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        </div>
+      </section>
     </div>
   );
 };

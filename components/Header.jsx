@@ -5,7 +5,7 @@ import React from 'react'
 import { FiGithub, FiHome, FiLinkedin, FiTwitter } from 'react-icons/fi'
 const Header = () => {
   return (
-    <header className='bg-custom2 text-custom4 border-t-2 border-custom4 w-full  h-10 bg-opacity-80 fixed flex items-center justify-around'>
+    <header className='bg-custom2 text-custom4 border-b-2 border-custom4 w-full  h-10 bg-opacity-50 z-10   fixed flex items-center justify-around'>
           <div className='flex gap-2 justify-center items-center flex-1'>
             <Link href="./" >
               <FiHome className='  text-xl hover:text-custom1 hover:mb-1'/>
