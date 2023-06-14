@@ -32,7 +32,7 @@ const Circle = ({
     const newClonedItems = items.map((item, index) => {
       const rotate = angle * index;
       const translateX = Math.cos((rotate * Math.PI) / 180) * (height / 2);
-      const translateY = Math.sin((rotate * Math.PI) / 180) * (width / 2);
+      const translateY = Math.sin((rotate * Math.PI) / 180) * (height / 2);
        
       return React.cloneElement(item, {
         className: `${item.props.className} animate-ping-slow`,

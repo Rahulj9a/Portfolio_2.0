@@ -34,3 +34,8 @@ module.exports = {
   },
   plugins: [],
 }
+/*
+colors op1 - #884A39, #C38154, #FFC26F, #F9E0BB
+colors op2-  #000000, #282A3A, #735F32, #C69749
+colors op3- 
+ */

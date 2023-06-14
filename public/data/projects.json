@@ -1,0 +1,19 @@
+[{
+    "title":"E-Commerce Website",
+    "about":"",
+    "description":"s",
+    "techs":["react", "redux"],
+    "image":"/images/projects/ECommerce1.jpg"
+},{
+    "title":"Socater",
+    "about":"",
+    "description":"Twitter clone",
+    "techs":["Nextjs", "Zustand"],
+    "image":"/images/projects/twitterClone.jpg" 
+},{
+    "title":"News Hub",
+    "about":"",
+    "description":"news app",
+    "techs":["react", "bootstrap"],
+    "image":"/images/projects/newsHub.png"
+}]
