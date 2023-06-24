@@ -1,11 +1,11 @@
-import Image from "next/image";
+ 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+ 
 
 function LinkPreview({ url, width = "250px", height = "150px" }) {
   const [previewData, setPreviewData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const router = useRouter()
+   
 
   const handleClick = (e) => {
     window.open(url, '_blank');
@@ -50,7 +50,7 @@ function LinkPreview({ url, width = "250px", height = "150px" }) {
 
   return (
     <div onClick={handleClick} className="cursor-pointer">
-      <div className="projectCard md:w-[300px] md:h-[300px] w-[250px] h-[2500px] rounded-2xl hover:shadow-circle-shadowSmall hover:shadow-custom4">
+      <div className="projectCard md:w-[300px] md:h-[300px] w-[250px] h-[250px] rounded-2xl hover:shadow-circle-shadowSmall hover:shadow-custom4">
         <div className="h-2/3 w-full bg-custom1 rounded-t-2xl flex items-center justify-center overflow-hidden">
           <img src={previewData.image} className=" w-auto h-auto bg-contain" />
         </div>
