@@ -1,7 +1,13 @@
 [{
-    "url":"https://dev.to/rahulj9a/easiest-way-to-create-react-tables-nextjs-2g18"
+    "url":"https://dev.to/rahulj9a/easiest-way-to-create-react-tables-nextjs-2g18",
+    "title":"Easiest way to create react tables in next.js"
 },{
-    "url":"https://dev.to/rahulj9a/accessibility-in-web-development-designing-for-all-users-1kj2"
+    "url":"https://dev.to/rahulj9a/accessibility-in-web-development-designing-for-all-users-1kj2",
+    "title":"Accessibility in web development: Designing for all users"
 },{
-    "url":"https://dev.to/rahulj9a/how-to-build-simple-link-preview-without-any-library-in-js-2j84"
+    "url":"https://dev.to/rahulj9a/how-to-build-simple-link-preview-without-any-library-in-js-2j84",
+    "title":"How to build simple link preview without any liberary in React"
+},{
+    "url":"https://dev.to/rahulj9a/the-importance-of-clean-code-in-javascript-development-4d8i",
+    "title":"Importance of clean code in Web development"
 }]

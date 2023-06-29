@@ -25,10 +25,10 @@ module.exports = {
          
       },
       colors:{
-        "custom1":"#000000",
-        'custom2':"#282A3A",
-        "custom3":"#735F32",
-        "custom4":"#C69749"
+        "custom1":"#044A44",
+        'custom2':"#062925",
+        "custom3":"#3A9188",
+        "custom4":"#B8E1DD"
       }
     },
   },
@@ -37,5 +37,5 @@ module.exports = {
 /*
 colors op1 - #884A39, #C38154, #FFC26F, #F9E0BB
 colors op2-  #000000, #282A3A, #735F32, #C69749
-colors op3- 
+colors op3- F6F1E9, FFD93D, 044A44
  */
