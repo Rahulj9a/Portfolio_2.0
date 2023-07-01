@@ -1,19 +1,22 @@
 [{
     "title":"E-Commerce Website",
     "about":"",
-    "description":"s",
+    "description":"sssss ssss ssss sssssss ssss sssssss ssss sssss ssss sssss sssss sssss sssssssss sssss sssssss ssssss ssssss ss ssss  ssssssss sssssss sssss ssss sssssss ssssss sssssssss ssssss ssss sssssssssssssss s ssss ssssssss ssss sssss sssssss sssss sss sssss ssssssss sssss ssssss sssss ss ss sssss sss sssss s ssss ss",
     "techs":["react", "redux"],
-    "image":"/images/projects/ECommerce1.jpg"
+    "image":"/images/projects/ECommerce1.jpg",
+    "links":["https://github.com","https://twitter.com"]
 },{
     "title":"Socater",
     "about":"",
     "description":"Twitter clone",
     "techs":["Nextjs", "Zustand"],
-    "image":"/images/projects/twitterClone.jpg" 
+    "image":"/images/projects/twitterClone.jpg",
+    "links":["https://github.com","https://twitter.com"]
 },{
     "title":"News Hub",
     "about":"",
     "description":"news app",
     "techs":["react", "bootstrap"],
-    "image":"/images/projects/newsHub.png"
+    "image":"/images/projects/newsHub.png",
+    "links":["https://github.com","https://twitter.com"]
 }]
