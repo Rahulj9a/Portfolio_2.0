@@ -27,7 +27,7 @@ const LeftSideBar = ({ links = [{ title: "Home", href: "./" }] }) => {
           title="Rahul Solanki"
           profile
           detail="web developer"
-          logo=<Image width={75} height={75} className="h-16 w-16 rounded-full" src="/images/profilepic.jpg" />
+          logo=<Image width={75} height={75} className="h-16 w-16 rounded-full" src="/images/profilrPic.jpg" />
         />
       </div>
 

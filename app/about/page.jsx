@@ -38,7 +38,7 @@ const page = ({ props }) => {
                 width={300}
                 height={300}
                 className="h-[250px] w-[250px] rounded-full shadow-circle-shadow shadow-custom4"
-                src="/images/profilepic.jpg"
+                src="/images/profilrPic.jpg"
               />
             </div>
             <div className="flex items-center w-2/3  md:border-l-2 border-t-2 md:border-t-0 md:flex-row flex-col my-10 border-custom4">
